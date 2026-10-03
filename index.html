@@ -1,21 +1,21 @@
-<!doctype html> 
+<!doctype html>
 <html lang="en">
-<head> 
+<head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="theme-color" content="#102d42">
+  <meta name="theme-color" content="#071333">
   <title>TISC 2026 | Onsite Registration</title>
   <style>
-    *{box-sizing:border-box}html,body{margin:0;min-height:100%;background:#f5f8fb;font-family:system-ui,-apple-system,"Segoe UI",sans-serif;color:#102d42}
-    header{height:60px;display:flex;align-items:center;justify-content:center;background:#102d42;color:white;font-weight:800;letter-spacing:.08em;position:relative}
-    header a{position:absolute;right:16px;color:#bfe3ee;font-size:12px;text-decoration:none}
-    iframe{display:block;width:100%;height:calc(100dvh - 60px);min-height:620px;border:0;background:#f5f8fb}
-    .setup{max-width:600px;margin:40px auto;padding:28px;background:white;border-radius:18px;text-align:center;box-shadow:0 8px 25px #102d4212}
-    .setup h1{margin:0 0 10px}.setup p{line-height:1.6}.setup strong{display:block;margin-top:24px}
+    *{box-sizing:border-box}html,body{margin:0;min-height:100%;background:#071333;font-family:system-ui,-apple-system,"Segoe UI",sans-serif;color:#142340}
+    header{min-height:60px;display:flex;align-items:center;justify-content:space-between;gap:12px;padding:8px clamp(12px,3vw,28px);background:#071333;color:#fff;border-bottom:3px solid #e95b18}
+    header strong{font-size:14px;letter-spacing:.06em}header a{display:inline-flex;min-height:40px;align-items:center;padding:0 14px;border:1px solid #e95b18;border-radius:9px;color:#fff;font-size:12px;font-weight:800;text-decoration:none;white-space:nowrap}header a:focus-visible{outline:3px solid #ff9a60;outline-offset:3px}header a:hover{background:#aa3909}
+    iframe{display:block;width:100%;height:calc(100dvh - 63px);min-height:620px;border:0;background:#f4f5f8}
+    .setup{max-width:600px;margin:40px auto;padding:28px;background:white;border-radius:18px;text-align:center;box-shadow:0 8px 25px #02091d30}.setup h1{margin:0 0 10px}.setup p{line-height:1.6}.setup strong{display:block;margin-top:24px}
+    @media(max-width:480px){header strong{font-size:12px;max-width:210px}header a{font-size:11px;padding:0 10px}.setup{margin:20px 12px}}
   </style>
 </head>
 <body>
-  <header>TISC 2026 · ONSITE REGISTRATION <a id="staffLink" href="#staff" aria-label="Staff dashboard">STAFF</a></header>
+  <header><strong>TISC 2026 · ONSITE REGISTRATION</strong><a id="staffLink" href="#staff" aria-label="Staff dashboard">STAFF</a></header>
   <main id="mount" aria-live="polite"></main>
   <script src="config.js"></script>
   <script>
